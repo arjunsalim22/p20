@@ -1,0 +1,77 @@
+SHOPEE INDIA APP,,,,,,
+Version No.0001,,,,Verified By,,
+Tested By: P S ARJUN,,,,Date: 07/05/2023,,
+Environment Details: Browser and OS,,,,Module: ,,
+Test id ,Test description,Test Procedure,Test Data,Expected Result,Actual Result,Status
+SIA_SS_01,verify whether splash screen is present,1. Open application,,splash screen should be present,splash screen is present,pass
+SIA_HS_01,Check whether it takes time to load home page,1.open application,,it should not take time to load home page,it takes time to load home page,fail
+SIA_HS_02,Check whether the items on home screen are clickable and navigates to next page,1.click on items,,items should be clickable and navigate to next page,items are clickable and navigate to next page,pass
+SIA_HS_03,Check whether hamburger button on home screen is working,"1.locate hamburger button 
+2.click on hamburger button",,hamburger button should be working,hamburger button is working,pass
+SIA_HS_04,check whther search button is working in the home screen,"1. locate search button
+2. click on search button",,search button should be working,search button is not working properly,fail
+SIA_HS_05,verify whether whishlist icon in home page navigates to whislist page,1. click on whislist icon,,whislist icon should navigate to whislist,it does not navigate to whishlist,fail
+SIA_HS_06,verify whether store icon in home page navigates to store menu inside the app,1. click on store icon,,store icon should navigate to store menu inside the app,store icon does not navigate to store menu inside the app,fail
+SIA_HS_07,check whether cart option is available on home screen,1.locate cart option ,,cart should be available on home screen,cart is available on home screen,pass
+SIA_HS_08,check whether profile option is available in home screen,1. locate profile option,,profile option should be available on home screen,profile option is not available on home screen,fail
+SIA_HS_09,check whether images on screen are available when scrolling down,1.scroll down ,,images of products should be available whe scrolling down,images of some products are not available on scrolling down home screen,fail
+SIA_HM_01,check whether login option available in hamburger menu,1.click on hamburger menu,,login option should be available on hamburger menu,login option not available in hamburger menu,fail
+SIA_HM_02,verify whether clicking hamburger menu from other pages switch to home page,"1. click on any product
+2. click on hamburger menu",,clicking on hamburger menu from other pages should not navigate to home page,it navigates to home page,fail
+SIA_HM_03,"check whtether store, wallet, contact us, policy option available in hamburger menu",1.locate option avilable in hamburger menu,,"store, wallet, contact us, policy option should be avaiable in hamburger menu","store, wallet, contact us, policy option is avilable in hamburger menu",pass
+SIA_HM_04,check whether customer care number is available in contact us,"1. click on contact us
+2. locate number",,customer care number should be available in contact us,customer care number is not available in contact us,fail
+SIA_HM_05,check whether wallet option navigates to wallet balance,1.click on wallet,,wallet option should navigate to wallet balance,wallet option does not navigate to wallet balance,fail
+SIA_HM_06,check whether share option is available to multiple platforms,1. click on share,,share should be available for multiple platforms,share is only available for only facebook and whatsapp,fail
+SIA_HM_07,check whether icons of options in hamburger menu are correctly given,"1.click on hamburger
+2.view each icon",,icons of options should be correctly given,icons are not given correctly,fail
+SIA_SB_01,check whether search icon navigates to search bar,1.click on search icon,,search icon should navigate to search bar,search icon does not navigate to search bar,fail
+SIA_SB_02,check whether upper case and lower case letters can be entered in search bar,"1. enter upper case letters
+2. enter lower case letters","1.APPLE
+2. ball",upper case and lower case letters should be able to get entered,upper and lower case letters can be enterd,pass
+SIA_SB_03,check whether numericals and special characters can be entered,"1. enter numerical value
+2. enter special character ","1.3424
+2.$%%$^",both numerical and special characters should be able to get entered,both numericals and special characters can be entered,pass
+SIA_SB_04,check whether back space can be used to erase text in search bar,1. click back space,,back space should erase values in search bar,back space can erase values in search bar,pass
+SIA_SB_05,check whether predictions are available when entering  less than three letters,1. enter three letters,1. app,predictions should be available when entering less than 3 letters,predictions are not available when entering less than 3 letters,fail
+SIA_SB_06,check whther predictions are avilable for more than 3 letters,1. enter more than 3 letters,2. appl,predictions should be avialbale, predictions are available ,pass
+SIA_SB_07,check whether the search items can be clicked from the prediction list,"1. enter items in search bar
+2. click on items from list",1. watch,items avilable in predicition list should be clickable,items in prediction list are clickable,pass
+SIA_SB_08,Verify whether previous searches are available when clicking on search bar,1. click on search bar,,previous searches should be available on clicking search bar,previous searches should be available on clicking search bar,fail
+SIA_SB_09,check whether predictions are available when product is wrongly spelt,1.enter product with wrong spelling,1. heedphone,predictions should not be available for wrongly spelt product,predictions are available for wrongly spelt product,fail
+SIA_CA_01,check whether all product categories are listed,1. click on categories,,all products should be available in product category,all products are available in product category,pass
+SIA_CA_02,check whether sub categories of products are available as dropdown,1. click on any category,"1. men
+2. topwear, bottom wear etc",sub categories should be available ,sub categories are available,pass
+SIA_CA_03,check whether items from category navigates to product page,1. click on item,,items should navigate to product page,items navigate to product page,pass
+SIA_PD_01,check whether products are available with relevant images,1. click on products,1. casual shirt,products should be available with relevant images,products are available with relevant images,pass
+SIA_PD_02,check whether products with higher ratings are present first,1. check rating of products,,products with higher rating should be available first,products with higher rating are not present first,fail
+SIA_PD_03,Check whether products are available with more detailings,"1.click on product
+",,products should be available with more detailings,products are available with less detailings,fail
+SIA_PD_04,check whether products navigate to product description on clicking,1. click on products,1. t shirt,products should navigate to product description,products navigate to product description,pass
+SIA_PD_05,check whether products sizes are avialable,1. locate product size,"1. M,L,XL",product sizes should be available ,product sizes are available,pass
+SIA_PD_06,check whether quantity added is limited or not,1. click on quantity of item,1-5,quantity should not be limited,quantity is limited,fail
+SIA_PD_07,check whether complete product description is available,1. locate product details,,complete product desciption should be available,complete product details is not avaialble,fail
+SIA_PD_08,check whether product review option is available for customer,1. locate ratings and reviews,,review option should be available for customers,review option is not available for customers,fail
+SIA_PD_09,check whether related items are available,1. locate related products,,related products should be available,related products option is available,pass
+SIA_PD_10,check whether add to cart option is available,1. click on add to cart,,add to cart option should be available,add to cart option is available,pass
+SIA_PD_11,check whether buy now option is available,1. click on buy now ,,buy now option should be available ,buy now option is available ,pass
+SIA_PD_12,verify whether blank screen appears when trying to return to home page,1. return back to home page,,blank screen should not appear on returning back to home screen,blank screen appears on returning back to home screen ,fail
+SIA_FL_01,check whether products can be filtered based on brand,1. click on filter,,products should be filtered based on brand,filtering based on brand is not available,fail
+SIA_FL_02,verify whether products can be filtered based on price,1. click on filter,,products should be filtered based on price,filtering based on price is not available,fail
+SIA_FL_03,verify whether products can be filtered based on rating,1. click on filter,,products should be filtered based on rating,filtering based on rating is not available,fail
+SIA_FL_04,verify whether filter is available for every product in the product list,"1. click on products
+2.view filters",,filters should be available for every product in product list,filter is not available for every product in product list,fail
+SIA_AC_01,check whether number of itms added is visible in the add to cart icon,1. locate cart icon,,number of items should be visible in the add to cart icon,number of items added is visible in cart icon,pass
+SIA_AC_02,check whether price summary is available,1. locate price summary,,price summary should be available,price summary is available,pass
+SIA_AC_03,check whether checkout option is available,1. locate checkout option,,checkout option should be available,checkout option is available ,pass
+SIA_AC_04,verify whether product checkout is available for single items from group of items in cart,"1. add multiple products to cart
+2. click on checkout",,checkout should be available for single items from group of items,checkout is not available for single items from group of items,fail
+SIA_AC_05,check whether privacy policy icon gets overlapped with checkout option,1. locate privacy policy option,,privacy policy option should not get overlapped with checkout option,privacy policy option gets overlapped with check out option,fail
+SIA_CO_01,check whether it navigates to address option on clicking checkout,1. click on checkout,,it should navigate to address option on clicking checkout,it navigates to address option on checkout,pass
+SIA_CO_02,check whether saved address option is available in address,1. locate saved address option,,saved address option should be available,saved address option is available,pass
+SIA_CO_03,check whether add new address option is available,1. click on add new address,,add new address option should be available,add new address option is available,pass
+SIA_CO_04,check whether next option is availanle after entering address,1. click on next option,,next option should be available after entering address,next option is available after entering address,pass
+SIA_CO_05,check whether it navigates to payment option after clicking next,"1. click next
+2. enter payment option",,it should navigate to paymenert option on clicking next,it navigates to payment on clicking next,pass
+SIA_CO_06,check whether all payment options are avilable,1. locate payment options,"paytm, google pay, sbi, visa, cod",all payment methods should be available ,all payment methods are available,pass
+SIA_CO_07,check whether any one payment method can be selected,1. click on any one payment method,google pay,only one payment method should be selected,only one payment option can be selected,pass

@@ -1,0 +1,47 @@
+SHOPEE INDIA APP,,,,,,,
+Identified by:,P S ARJUN,,,,,,
+Reported to:,,,,,,,
+Date:,04-07-2023,,,,,,
+Version Number:,,,,,,,
+Environment Details:,,,,,,,
+Bug Id,Expected Result,Bug Description,Steps to reproduce,Severity,Priority,Screenshot,Status
+DEF_SIA_01,home screen of app should have more information when scrolled down,home screen does not have much information when scrolled down,"1. open shopee india app
+2. view home screen
+3. scroll down",trivial,medium,https://drive.google.com/file/d/1NTdkVUq1MLhVBaCpDJnC9svqho1lbF_Z/view?usp=share_link,new
+DEF_SIA_02,user account login should be available in hamburger menu,user account login is not available in hamburger menu,"1. click on hamburger button
+2. view contents",critical,high,https://drive.google.com/file/d/1NZCC4MYiReqbUDSWwrpevEX2LpIkMuBH/view?usp=share_link,new
+DEF_SIA_03,search icon should navigate to search bar,search icon does not navigate to search bar,1. click on search icon,major,high,https://drive.google.com/file/d/1PLCIR19yX1x-U9oB14Sl7ErFJlVdYeBU/view?usp=share_link,new
+DEF_SIA_04,wishlist icon should navigate to wishlist menu,wishlist icon navigates to add to cart,1. click on wishlist icon,major,high,https://drive.google.com/file/d/1NmXILTf65qqHWIRt_dYP7bRLR7UA6VIX/view?usp=share_link,new
+DEF_SIA_05,store icon should navigate to store menu inside the app,store icon navigates to web page outside app,1. click on store icon,major,high,https://drive.google.com/file/d/1PY0hrNmo-eX2ujPHucw_WTx9Jn9zD2RT/view?usp=share_link,new
+DEF_SIA_06,item prediction should be available when 1 or 2 words are given as input,item prediction not available when 1 or 2 words are given as input,"1. click on search bar
+2. enter 1 or 2 letters",trivial,low,https://drive.google.com/file/d/1OdwnQfvbo6KlLxtFnSfQODez76o3ZXH0/view?usp=share_link,new
+DEF_SIA_07,previous searches should be available,previous searches not available,1. click on search bar,trivial,low,https://drive.google.com/file/d/1OVW-fNFITaSznd2RdeBpV-zPzOvSnYmA/view?usp=share_link,new
+DEF_SIA_08,images of items on home screen should be available,some images of items on home screen are not available,"1. view home screen items
+2. scroll down",trivial ,high,https://drive.google.com/file/d/1O8vfMwb8zOlvlalWQ1oKY2lHC9PkAoRG/view?usp=share_link,new
+DEF_SIA_09,products should be available with more detailing,some products are available with less detailing,1. click on products,trivial ,low,https://drive.google.com/file/d/1OYc4FRX4RliRyzqZaqP5d88yQlaEZBu5/view?usp=share_link,new
+DEF_SIA_10,products should be filtered based on rating,products are not filtered based on rating,1. click on filters,trivial ,medium,https://drive.google.com/file/d/1OXJEpzOYSUsiETkjnb7ugPCAxLo5Szt7/view?usp=share_link,new
+DEF_SIA_11,product should be filtered based on brand,products cannot be filtered based on brand,1. click on filters,trivial,medium,https://drive.google.com/file/d/1OXJEpzOYSUsiETkjnb7ugPCAxLo5Szt7/view?usp=share_link,new
+DEF_SIA_12,filter should be available based on price,filter not available based on price,1. click on filters,trivial,medium,https://drive.google.com/file/d/1OXJEpzOYSUsiETkjnb7ugPCAxLo5Szt7/view?usp=share_link,new
+DEF_SIA_13,filters should be available for every product list,filter not available for every product list,"1. click on products
+2. view filters",minor,low,https://drive.google.com/file/d/1QMKffrCqZyJAwNnaSbUUpbbqqajwSgYJ/view?usp=share_link,new
+DEF_SIA_14,low rated products should not be present at begining,low rated products are present at the begining,1. click on products,trivial,low,https://drive.google.com/file/d/1Q21UTbw84ICAbO-UM7zM7a_LR7zgiO9T/view?usp=share_link,new
+DEF_SIA_15,options for giving rating should be available,options for giving rating is not available,1. click on products,trivial ,low,https://drive.google.com/file/d/1Q20avab6mQYnKAT-mmqq5LDXhLJr0rKn/view?usp=share_link,new
+DEF_SIA_16,screen should not be blank when clicking back button,screen becomes blank when clicking back button,"1. view items
+2. click on back menu",critical ,high,https://drive.google.com/file/d/1Q8OrWvcu7egV5sNHXpkOQbNwveOpoK-P/view?usp=share_link,new
+DEF_SIA_17,hamburger button should not switch to home screen,hamburger button switches to home screen,1. click on hamburger menu,major,medium,https://drive.google.com/file/d/1NTdkVUq1MLhVBaCpDJnC9svqho1lbF_Z/view?usp=share_link,new
+DEF_SIA_18,share option should be available to multiple applications,share option only available to whatsapp and facebook,1. click on share menu,minor,low,https://drive.google.com/file/d/1NzZEy7-INAVk6UFHeu2yHcnmB472W9Wr/view?usp=share_link,new
+DEF_SIA_19,wallet should not crash,wallet crashes and blank screen appears,1. click on wallet,major ,high,https://drive.google.com/file/d/1NkfZuHFa-5BXUdCdlUw7smm2GpOtgEnu/view?usp=share_link,new
+DEF_SIA_20,images response time should be low,images response time is high when scrolling down,1. scroll down,trivial,high,https://drive.google.com/file/d/1O-458cLHTLz0q_za93S1hIChgkSLcxl6/view?usp=share_link,new
+DEF_SIA_21,buy now function should not overlap privacy policy,buy now function overlaps privacy policy,"1. click on buy now
+2. locate privacy policy",trivial,medium,https://drive.google.com/file/d/1QE0u2k84HqR2jNjpLgzOGrWzCBCDnEGY/view?usp=share_link,new
+DEF_SIA_22,product checkout should be available for each product from group ,product checkout is avialable as a group,1. click on buy now,major,high,https://drive.google.com/file/d/1NyzZoTARfzxe2Qfa8D19x0MkwoH1V6M_/view?usp=share_link,new
+DEF_SIA_23,products should be available with multiple sizes,products sizes are limited,1. click on product sizes,minor,low,https://drive.google.com/file/d/1OHy40wjWzAXk17ZeHeSPq-cXMiV2Iouj/view?usp=share_link,new
+DEF_SIA_24,quantity of items should be more,quantity of items available only till 5,1. click on product quantity,minor,low,https://drive.google.com/file/d/1OF1UBnXd8KcecOo20aJdqmGTSrF7P-Pq/view?usp=share_link,new
+DEF_SIA_25,products description should be given more,products description is minimal,1. click on products,minor ,low,https://drive.google.com/file/d/1OYc4FRX4RliRyzqZaqP5d88yQlaEZBu5/view?usp=share_link,new
+DEF_SIA_26,icons in hamburger should not mix up,icons are mixed up,1. click on hamburger menu,minor ,low,https://drive.google.com/file/d/1NZCC4MYiReqbUDSWwrpevEX2LpIkMuBH/view?usp=share_link,new
+DEF_SIA_27,app should not crash on longer use,app crashes on longer use,"1. open app
+2. use it for some hours",critical,high,https://drive.google.com/file/d/1OhDs3H1p3nKaWa6fMhyRN_19cGnuA8E_/view?usp=share_link,new
+DEF_SIA_28,app should not have crashes during night use,app crashes during night use,"1. open app at night time
+2. use for some time",critical ,high,https://drive.google.com/file/d/1NlaDhGfL-6m-YuRCuB37kvx5YAoU7bUr/view?usp=share_link,new
+DEF_SIA_29,customer support number should be provided in contact us,customer support number not provided in contact us,1. click on contact us,major,high,https://drive.google.com/file/d/1Og54JfyYt1Rn19ONCRU6rooGTdTiOEm1/view?usp=share_link,new
+DEF_SIA_30,item names with spelling mistakes should not be predicted,item names with spelling mistakes are predicted,1. enter items with wrong spelling,trivial,low,https://drive.google.com/file/d/1O_CaMvdjJxSnUJahW6hJIvPkkzTe8R0b/view?usp=share_link,new
